@@ -1,5 +1,7 @@
 .button_container {
   margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 button {
      margin-top: 2rem;
@@ -17,10 +19,10 @@ button {
     transition: all 0.2s ease-in;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
-button .big_button {
+#big_button {
   height: 100px;
-  width: 200px;
-  background: red;
+  width: 225px;
+  border-radius: 45%;
 }
 button:hover {
   background: #fff;
