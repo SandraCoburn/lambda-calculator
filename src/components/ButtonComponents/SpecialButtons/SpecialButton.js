@@ -1,9 +1,16 @@
 import React from "react";
+//import { specials } from "../../../data";
+import "./../NumberButtons/Numbers.css";
 
-const SpecialButton = () => {
+
+const SpecialButton = (props) => {
+  const special = props.special;
+  const setDisNum = (specials) => {
+    props.setDisplayNumberSpec(specials);
+  }
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button onClick={() => setDisNum(special)}>{special}</button>
+      
   );
 };
+export default SpecialButton;
