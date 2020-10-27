@@ -20,6 +20,9 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .container .numbers {
+      width: 80%;
+  }
   /* .spec {
       height: 10;
   } */

@@ -4,12 +4,12 @@ import "./../NumberButtons/Numbers.css";
 
 
 const SpecialButton = (props) => {
-  const specials = props.specials;
+  const special = props.special;
   const setDisNum = (specials) => {
     props.setDisplayNumberSpec(specials);
   }
   return (
-    <button onClick={() => setDisNum(specials)}>{specials}</button>
+    <button onClick={() => setDisNum(special)}>{special}</button>
       
   );
 };

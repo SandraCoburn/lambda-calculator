@@ -32,7 +32,7 @@ function App() {
         <div className="spec">
           <Specials setDisplayNumberSpec={setDisplayNumberSpec}/>
         </div>
-        <div>
+        <div className="numbers">
           <Numbers setDisplayNumber={setDisplayNumber}/>
         </div>
         <div>
